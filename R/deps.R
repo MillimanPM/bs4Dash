@@ -26,8 +26,8 @@ add_bs4Dash_deps <- function(tag, options) {
     # bootstrap deps
     htmltools::htmlDependency(
       name = "bootstrap", 
-      version = "4.5.2",
-      src = c(file = "bootstrap-4.5.2"),
+      version = "4.6.2",
+      src = c(file = "bootstrap-4.6.2"),
       script = bootstrap_js,
       package = "bs4Dash"
     ),
@@ -62,8 +62,8 @@ add_bs4Dash_deps <- function(tag, options) {
     # adminLTE3 deps
     htmltools::htmlDependency(
       name = "AdminLTE3", 
-      version = "3.1.0",
-      src = c(file = "AdminLTE3-3.1.0"),
+      version = "3.2.0",
+      src = c(file = "AdminLTE3-3.2.0"),
       script = adminLTE3_js,
       stylesheet = adminLTE3_css,
       package = "bs4Dash"
